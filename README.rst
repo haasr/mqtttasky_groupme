@@ -9,7 +9,7 @@ Turn your Raspberry Pi into a Task notification system.
    :target: https://youtu.be/8mkR3_NMNjo
 
 | Click to watch demonstration video.
-
+|
 
 .. contents:: Contents
 
