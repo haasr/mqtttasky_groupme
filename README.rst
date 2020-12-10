@@ -23,7 +23,7 @@ What is MQTTTasky?
 | and I couldn't conventiently schedule tasks from my smart phone.
 
 | MQTTTasky is much less terrible, despite its name. The basic idea is,
-| using GroupMe on my phone, I can schedule a task, then A GroupMe bot
+| using GroupMe on my phone, I can schedule a task. A GroupMe bot
 | I have configured will interact with me and schedule the tasks. When
 | a task notification occurs, the Raspberry Pi running MQTTTasky will
 | display a notification window about the task and read the task aloud
@@ -411,7 +411,7 @@ CBC
 | In cipher block chaining (CBC), plaintext blocks get XORed with
 | previous ciphertext blocks prior to the encryption process. That
 | is why it is referred to as block chaining, because each ciphertext
-| block depends on ever processed plaintext block at each that moment.
+| block depends on every processed plaintext block up to that point.
 | This preserves the integrity of the data
 | (`Block cipher mode of operation, 2020 <https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Cipher_block_chaining_(CBC)>`_).
 |
