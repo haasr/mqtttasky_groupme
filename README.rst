@@ -128,8 +128,9 @@ Connecting the LEDs
 
 Setting up simple_google_tts
 ----------------------------
-| 1) As per the instructions from `this link <https://github.com/alexylem/jarvis/issues/129#issuecomment-248072872>`_, download each of the following
+| 1) Download each of the following
 | files on your Raspberry Pi:
+|   - `multiarch-support <http://ftp.us.debian.org/debian/pool/main/g/glibc/multiarch-support_2.28-10+deb10u1_armhf.deb>`_
 |   - `libttspico-data <http://ftp.fr.debian.org/debian/pool/non-free/s/svox/libttspico-data_1.0+git20130326-3_all.deb>`_
 |   - `libttspico0_1.0 <http://ftp.fr.debian.org/debian/pool/non-free/s/svox/libttspico0_1.0+git20130326-3_armhf.deb>`_
 |   - `libttspico-utils <http://ftp.fr.debian.org/debian/pool/non-free/s/svox/libttspico-utils_1.0+git20130326-3_armhf.deb>`_
@@ -137,7 +138,7 @@ Setting up simple_google_tts
 | 2) And following the same instructions, install each of the packages onto your Pi:
 
 .. code:: bash
-
+    sudo dpkg -i multiarch-support_2.28-10+deb10u1_armhf.deb
     sudo dpkg -i libttspico-data_1.0+git20130326-3_all.deb
     sudo dpkg -i libttspico0_1.0+git20130326-3_armhf.deb
     sudo dpkg -i libttspico-utils_1.0+git20130326-3_armhf.deb
